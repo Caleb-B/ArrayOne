@@ -2,7 +2,7 @@
  * Programmer:	Caleb Beynon
  * Class:		CS30S
  * 
- * Assignment:	Exercise 2
+ * Assignment:	Exercise 2.1
  *
  * Description:	describe the class you are creating
  *
