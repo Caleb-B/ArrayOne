@@ -18,7 +18,7 @@ import java.text.DecimalFormat;
 public class ArrayOne
 {  // begin class
 	
-	final static int MAX = 10;
+	final static int MAX = 10;		// maximum size of array
 	
 	public static void main(String args[])
 	{  // begin main
@@ -39,7 +39,7 @@ public class ArrayOne
 	// ***** create objects *****
 		
 		ProgramInfo Printer = new ProgramInfo();
-		out += Printer.getBanner();
+		out += Printer.getBanner("ArrayExercise 1 Q1-5");
 		
 	// ***** create input stream *****
 	
@@ -113,14 +113,14 @@ public class ArrayOne
 		
 		System.out.println("Highest Value:	" + max);
 		out += "Highest Value:	" + max + "\n";
-		System.out.println("Lowest Value:	" + min);
-		out += "Lowest Value:	" + min + "\n";
+		System.out.println("Lowest Value:	" + min + "\n");
+		out += "Lowest Value:	" + min + "\n\n";
 		
 	// ***** output *****
 	
 		// all formatted ouput is printed in this section
 		
-		out = Printer.getClosing();
+		out += Printer.getClosing();
 		output(out);
 
 	// ***** closing message *****
